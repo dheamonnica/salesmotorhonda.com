@@ -1,0 +1,9 @@
+{
+    "name": "Credit",
+    "namespace": "Botble\\Credit\\",
+    "provider": "Botble\\Credit\\Providers\\CreditServiceProvider",
+    "author": "Sang Nguyen",
+    "url": "http://sangnguyen.info",
+    "version": "1.0",
+    "description": "The description for plugin credit"
+}

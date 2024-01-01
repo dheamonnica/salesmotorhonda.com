@@ -1,0 +1,1034 @@
+.vc_custom_1595224570752 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important
+}
+
+.vc_custom_1597644638845 {
+    background-color: #fbfbfb !important
+}
+
+.vc_custom_1569504695057 {
+    background-color: #f6f7f9 !important
+}
+
+.vc_custom_1595224749028 {
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+    background-color: #222529 !important
+}
+
+.vc_custom_1569422980636 {
+    background-color: #f4f4f4 !important
+}
+
+.vc_custom_1569428338246 {
+    background-color: #f4f4f4 !important
+}
+
+.vc_custom_1569495525126 {
+    margin-bottom: 20px !important;
+    padding-top: 1.6rem !important;
+    padding-bottom: 1.6rem !important;
+    padding-left: 1.6rem !important;
+    background-color: #f4f4f4 !important
+}
+
+/*.vc_custom_1569495546171 {
+    margin-bottom: 20px !important;
+    border-top-width: 1rem !important;
+    border-right-width: 1rem !important;
+    border-bottom-width: 1rem !important;
+    border-left-width: 1rem !important;
+    padding-top: 1.6rem !important;
+    padding-bottom: 1.6rem !important;
+    background-color: #f4f4f4 !important;
+    border-left-color: #0088cc !important;
+    border-left-style: solid !important;
+    border-right-color: #0088cc !important;
+    border-right-style: solid !important;
+    border-top-color: #0088cc !important;
+    border-top-style: solid !important;
+    border-bottom-color: #0088cc !important;
+    border-bottom-style: solid !important
+}*/
+
+.vc_custom_1569497052948 {
+    margin-bottom: 20px !important;
+    padding-top: 1.6rem !important;
+    padding-right: 1.6rem !important;
+    padding-bottom: 1.6rem !important;
+    background-color: #f4f4f4 !important
+}
+
+.vc_custom_1595226569476 {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important
+}
+
+#header .logo,
+.side-header-narrow-bar-logo {
+    max-width: 111px
+}
+
+@media (min-width:1220px) {
+    #header .logo {
+        max-width: 111px
+    }
+}
+
+@media (max-width:991px) {
+    #header .logo {
+        max-width: 111px
+    }
+}
+
+@media (max-width:767px) {
+    #header .logo {
+        max-width: 80px
+    }
+}
+
+.page-top ul.breadcrumb>li.home {
+    display: inline-block
+}
+
+.page-top ul.breadcrumb>li.home a {
+    position: relative;
+    width: 14px;
+    text-indent: -9999px
+}
+
+.page-top ul.breadcrumb>li.home a:after {
+    content: "\e883";
+    font-family: 'porto';
+    float: left;
+    text-indent: 0
+}
+
+@media (min-width:1500px) {
+
+    .left-sidebar.col-lg-3,
+    .right-sidebar.col-lg-3 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%
+    }
+
+    .main-content.col-lg-9 {
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+        max-width: 80%
+    }
+
+    .main-content.col-lg-6 {
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%
+    }
+}
+
+#login-form-popup {
+    position: relative;
+    width: 80%;
+    max-width: 525px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#login-form-popup .featured-box {
+    margin-bottom: 0;
+    box-shadow: none;
+    border: none;
+    border-radius: 0
+}
+
+#login-form-popup .featured-box .box-content {
+    padding: 45px 36px 30px;
+    border: none
+}
+
+#login-form-popup .featured-box h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: .05em;
+    font-weight: 600;
+    line-height: 2
+}
+
+#login-form-popup .porto-social-login-section {
+    margin-top: 20px
+}
+
+.porto-social-login-section {
+    background: #f4f4f2;
+    text-align: center;
+    padding: 20px 20px 25px
+}
+
+.porto-social-login-section p {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #222529;
+    font-weight: 600;
+    margin-bottom: 8px
+}
+
+#login-form-popup .col2-set {
+    margin-left: -20px;
+    margin-right: -20px
+}
+
+#login-form-popup .col-1,
+#login-form-popup .col-2 {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+@media (min-width:992px) {
+    #login-form-popup .col-1 {
+        border-right: 1px solid #f5f6f6
+    }
+}
+
+#login-form-popup .input-text {
+    box-shadow: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: #ddd;
+    border-radius: 2px;
+    line-height: 1.5 !important
+}
+
+#login-form-popup .form-row {
+    margin-bottom: 20px
+}
+
+#login-form-popup .woocommerce-privacy-policy-text {
+    display: none
+}
+
+#login-form-popup .button {
+    border-radius: 2px;
+    padding: 18px 24px;
+    text-shadow: none;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    letter-spacing: -.025em
+}
+
+#login-form-popup label.inline {
+    margin-top: 15px;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    line-height: 1.5
+}
+
+#login-form-popup label.inline input[type=checkbox] {
+    opacity: 0;
+    margin-right: 8px;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+#login-form-popup label.inline span:before {
+    content: '';
+    position: absolute;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    line-height: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 9px;
+    color: #aaa
+}
+
+#login-form-popup label.inline input[type=checkbox]:checked+span:before {
+    content: '\f00c'
+}
+
+#login-form-popup .social-button i {
+    font-size: 16px;
+    margin-right: 8px
+}
+
+#login-form-popup p.status {
+    color: #222529
+}
+
+.porto-social-login-section .google-plus {
+    background: #dd4e31
+}
+
+.porto-social-login-section .facebook {
+    background: #3a589d
+}
+
+.porto-social-login-section .twitter {
+    background: #1aa9e1
+}
+
+.featured-box .porto-social-login-section i {
+    color: #fff
+}
+
+.porto-social-login-section .social-button:hover {
+    background: var(--primary)
+}
+
+html.panel-opened body>.mfp-bg {
+    z-index: 9042
+}
+
+html.panel-opened body>.mfp-wrap {
+    z-index: 9043
+}
+
+.page-top {
+    padding: 10px 0;
+    min-height: 44px
+}
+
+.main-content,
+.left-sidebar,
+.right-sidebar {
+    padding-top: 0
+}
+
+.ls-80 {
+    letter-spacing: .08em
+}
+
+.ls-n-20 {
+    letter-spacing: -.02em
+}
+
+.ls-150 {
+    letter-spacing: .15em
+}
+
+.home-banner-slider h2.vc_custom_heading,
+.custom-font4 {
+    font-family: 'Segoe Script', 'Savoye LET'
+}
+
+.btn-modern {
+    font-family: Poppins;
+    font-weight: 700;
+    letter-spacing: .01em;
+    padding: 1em 1.6em
+}
+
+.btn-modern.btn-lg {
+    font-size: 1em;
+    padding-left: 2.8em;
+    padding-right: 2.8em
+}
+
+.btn-modern.btn-xl {
+    font-size: 1.1428em;
+    padding: 1.25em 3em
+}
+
+.btn-modern.vc_btn3-block {
+    letter-spacing: .15em
+}
+
+.porto-block-html-top {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: .9286em;
+    line-height: 1.4;
+    letter-spacing: .025em;
+    overflow: hidden
+}
+
+.porto-block-html-top .mfp-close {
+    top: 50%;
+    transform: translateY(-50%) rotateZ(45deg);
+    color: inherit;
+    opacity: .7
+}
+
+.porto-block-html-top small {
+    font-size: .8461em;
+    font-weight: 400;
+    opacity: .5
+}
+
+.porto-block-html-top a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: .4rem .5rem;
+    font-size: .625rem;
+    font-weight: 700;
+    background: #b10b11;
+    color: #fff;
+    text-decoration: none
+}
+
+#header {
+    border-bottom: 1px solid #f4f4f4
+}
+
+#header .header-top {
+    letter-spacing: .025em
+}
+
+#header .header-top .top-links>li.menu-item>a {
+    text-transform: none
+}
+
+#header .separator {
+    height: 1.6em
+}
+
+#header .share-links a {
+    width: 26px;
+    height: 26px
+}
+
+#header .share-links a:not(:hover) {
+    background: none;
+    color: inherit
+}
+
+#header .main-menu>li.menu-item,
+.main-menu-wrap .menu-custom-block a:not(:last-child) {
+    margin-right: 35px
+}
+
+#header .wishlist i,
+#header .my-account i {
+    font-size: 27px;
+    display: block
+}
+
+#header .searchform-popup .search-toggle {
+    width: 30px
+}
+
+#header .searchform input {
+    height: 40px
+}
+
+#header .searchform select,
+#header .searchform button,
+#header .searchform .selectric .label {
+    height: 40px;
+    line-height: 40px
+}
+
+#header .searchform .selectric .label {
+    padding-left: 15px
+}
+
+@media (min-width:992px) {
+    #header .header-main .header-left {
+        flex: 0 0 16.6666%
+    }
+
+    #header .header-main .header-right,
+    #header .searchform .text {
+        flex: 1
+    }
+
+    #header .searchform-popup {
+        flex: 1;
+        padding-left: 10px
+    }
+
+    #header .searchform {
+        width: 100%;
+        box-shadow: none
+    }
+
+    #header .searchform.searchform-cats input {
+        width: 100%
+    }
+}
+
+@media (max-width:767px) {
+    #header .header-top .header-right {
+        -ms-flex: 1;
+        flex: 1;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+
+    #header .header-top .view-switcher {
+        margin-left: 0
+    }
+
+    #header .header-top .share-links {
+        -ms-flex: 1;
+        flex: 1
+    }
+
+    #header .header-top .separator {
+        display: none
+    }
+}
+
+@media (max-width:575px) {
+    #header .header-right .searchform {
+        right: -120px
+    }
+}
+
+.header-bottom .container {
+    position: relative
+}
+
+.header-bottom .container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    width: calc(100% - 20px);
+    border-top: 1px solid #f4f4f4
+}
+
+#mini-cart {
+    font-size: 32px !important
+}
+
+#mini-cart .minicart-icon {
+    width: 25px;
+    height: 20px;
+    border: 2px solid #222529;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    opacity: .9;
+    margin: 6px 3px 0
+}
+
+#mini-cart .minicart-icon:before {
+    content: '';
+    position: absolute;
+    border: 2px solid;
+    border-color: inherit;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    left: 50%;
+    top: -8px;
+    margin-left: -7.5px;
+    width: 15px;
+    height: 11px
+}
+
+@media (max-width:991px) {
+
+    #header .header-top .top-links,
+    #header .separator:first-of-type {
+        display: none
+    }
+}
+
+.slider-title {
+    font-size: 1.125rem;
+    letter-spacing: -.02em
+}
+
+.coupon-sale-text {
+    transform: rotate(-2deg);
+    letter-spacing: -.01em;
+    position: relative
+}
+
+.coupon-sale-text b {
+    display: inline-block;
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 5px 8px;
+    background-color: #ff7272;
+    color: #fff
+}
+
+.coupon-sale-light-bg b {
+    background: #fff;
+    color: #222529
+}
+
+.coupon-sale-text i {
+    font-style: normal;
+    position: absolute;
+    left: -2.25em;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    font-size: .65em;
+    opacity: .6;
+    letter-spacing: 0
+}
+
+.top-icon .porto-sicon-header {
+    margin-bottom: .75rem
+}
+
+.top-icon .porto-sicon-header p {
+    font-family: Poppins;
+    margin-bottom: 0
+}
+
+article.post-grid .clearfix,
+article.post .post-meta i {
+    display: none
+}
+
+article.post .post-meta {
+    margin-top: -.75rem
+}
+
+article.post .post-meta a {
+    color: #999;
+    font-size: .625rem;
+    text-transform: uppercase
+}
+
+.blog-posts .post .entry-title {
+    font-family: Open Sans;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1
+}
+
+.blog-posts .post .entry-title a {
+    color: inherit
+}
+
+.blog-posts .post p {
+    font-size: .9286em
+}
+
+article.post .post-image .post-date {
+    right: auto;
+    left: 10px;
+    font-family: Poppins;
+    background: #222529;
+    letter-spacing: .05em;
+    width: 45px
+}
+
+.blog-posts .post .post-date .day {
+    background: none;
+    color: #fff;
+    padding-bottom: 0;
+    font-size: 1.125rem;
+    line-height: 1
+}
+
+.blog-posts .post .post-date .month {
+    background: none;
+    padding-bottom: 8px;
+    line-height: 1;
+    font-size: .7rem;
+    text-transform: uppercase;
+    opacity: .6;
+    font-weight: 400
+}
+
+.widget .widget-title,
+.widget .widgettitle,
+#footer .widget-title {
+    font-size: 0.95rem
+}
+
+.porto-products.title-border-middle>.section-title {
+    margin-bottom: .5rem
+}
+
+ul.products li.product:hover .add-links .add_to_cart_button,
+ul.products li.product:hover .add-links .add_to_cart_read_more {
+    background: black;
+    border-color: black
+}
+
+.products-slider.owl-carousel .product {
+    margin-bottom: 25px;
+    margin-top: 10px
+}
+
+.products-slider.owl-carousel .owl-item:hover {
+    z-index: 2
+}
+
+ul.products:not(.list) li.product-col:hover .product-image {
+    box-shadow: none
+}
+
+ul.products:not(.list) li.product-col:hover .product-inner {
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, .08)
+}
+
+.add-links .add_to_cart_button {
+    padding: 0 1.2em;
+    color: #6f6e6b
+}
+
+.add-links .add_to_cart_button:before {
+    display: none
+}
+
+li.product-col:hover .add-links .add_to_cart_button {
+    padding: 0 .7143em
+}
+
+li.product-col:hover .add-links .add_to_cart_button:before {
+    display: inline-block
+}
+
+.labels .onhot,
+.labels .onsale {
+    border-radius: 12px;
+    padding-left: .8em;
+    padding-right: .8em
+}
+
+.products-slider.owl-carousel .owl-stage-outer {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: -5px;
+    margin-right: -5px
+}
+
+@media (max-width:575px) {
+    .products-slider.owl-carousel .owl-stage-outer {
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-left: -2px;
+        margin-right: -2px
+    }
+}
+
+li.product-category .thumb-info,
+li.product-category .thumb-info img,
+li.product-category .thumb-info-wrapper:after {
+    border-radius: 50%
+}
+
+ul.category-color-dark li.product-category .thumb-info-title {
+    background: #fff;
+    padding: .75rem .5rem1.25rem
+}
+
+ul.products li.product-category .thumb-info h3 {
+    letter-spacing: 0;
+    font-family: Poppins
+}
+
+li.product-col.product-default h3,
+ul.product_list_widget li .product-details a {
+    color: #222529
+}
+
+ul.grid li.product-col h3 {
+    margin-left: .5rem;
+    margin-right: .5rem
+}
+
+#footer .footer-main .container:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    border-bottom: 1px solid #313438
+}
+
+#footer .contact-details i {
+    display: none
+}
+
+#footer .contact-details span {
+    padding-left: 0;
+    line-height: 1.4
+}
+
+#footer .contact-details strong {
+    padding-left: 0;
+    text-transform: uppercase;
+    line-height: 1.4
+}
+
+#footer .share-links a {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #313438;
+    box-shadow: none
+}
+
+#footer .widget .tagcloud a {
+    background: none;
+    color: inherit;
+    border-radius: 0;
+    font-size: 11px !important;
+    font-weight: 400;
+    text-transform: none;
+    padding: .6em;
+    border: 1px solid #313438
+}
+
+#footer .widget .tagcloud a:hover {
+    border-color: #fff;
+    color: #fff
+}
+
+#footer .widget_wysija_cont .wysija-paragraph {
+    display: block;
+    margin-bottom: 1rem
+}
+
+#footer .widget_wysija_cont .wysija-input {
+    border-radius: 30px;
+    background: #292c30;
+    padding-left: 1.5rem;
+    font-size: .8125rem
+}
+
+#footer .widget_wysija_cont .wysija-submit {
+    border-radius: 30px;
+    padding: 0 1.75rem;
+    font-size: .8125rem;
+    font-weight: 700
+}
+
+.payment-icons .payment-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3px;
+    width: 56px;
+    height: 32px;
+    background-color: #d6d3cc;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: opacity .25s;
+    filter: invert(1);
+    border-radius: 4px
+}
+
+.payment-icons .payment-icon:hover {
+    opacity: .7
+}
+
+.payment-icons .visa {
+    background-image: url(https://www.portotheme.com/wordpress/porto/wp-content/uploads/images/payments/payment-visa.svg)
+}
+
+.payment-icons .paypal {
+    background-image: url(https://www.portotheme.com/wordpress/porto/wp-content/uploads/images/payments/payment-paypal.svg);
+    background-size: 85% auto;
+    background-position: 50% 48%
+}
+
+.payment-icons .stripe {
+    background-image: url(https://www.portotheme.com/wordpress/porto/wp-content/uploads/images/payments/payment-stripe.png);
+    background-size: 60% auto
+}
+
+.payment-icons .verisign {
+    background-image: url(https://www.portotheme.com/wordpress/porto/wp-content/uploads/images/payments/payment-verisign.svg)
+}
+
+.newsletter-popup-form {
+    max-width: 740px;
+    position: relative
+}
+
+sup {
+    font-size: 70%;
+    top: -.3em
+}
+
+.heading-primary del {
+    color: #222529
+}
+
+.coupon-sale-text sup {
+    font-size: 50%;
+    top: -.5em
+}
+
+.col-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    max-width: none
+}
+
+.home-bar .porto-sicon-box {
+    justify-content: center;
+    padding: 1rem 0;
+    margin: 0;
+    border-right: 1px solid #e7e7e7;
+    margin-right: -2px;
+    padding: 10px 30px;
+}
+
+.home-banner-slider .container.first-banner>* {
+    padding-left: 8% !important;
+    padding-right: 40% !important
+}
+
+.porto-ultimate-content-box {
+    font-size: 10px
+}
+
+.porto-ultimate-content-box .vc_btn3-container {
+    font-size: 1.4em
+}
+
+.home-banner-slider .porto-ultimate-content-box {
+    height: 400px
+}
+
+.heading.heading-border.heading-border-xl .heading-tag:before,
+.heading.heading-border.heading-border-xl .heading-tag:after {
+    border-top-width: 7px;
+    margin-top: -3px
+}
+
+.home-banner {
+    letter-spacing: -.02em
+}
+
+.home-banner strong {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: .4em .6em;
+    margin-right: .5em
+}
+
+.home-banner strong:before {
+    content: '';
+    display: block;
+    background-color: #222529;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: rotate(-2deg);
+    z-index: -1
+}
+
+.home-banner small {
+    font-size: 64%;
+    font-weight: 400;
+    opacity: .7;
+    vertical-align: middle;
+    margin-left: .8em
+}
+
+.row-center .row {
+    justify-content: center
+}
+
+.brand-slider img {
+    max-width: 130px
+}
+
+@media (max-width:991px) {
+    .home-banner-slider .container.first-banner>* {
+        padding-left: 0 !important
+    }
+
+    .porto-ultimate-content-box {
+        font-size: 8px
+    }
+}
+
+@media (max-width:575px) {
+    .porto-ultimate-content-box {
+        font-size: 7px
+    }
+
+    .home-banner-slider .container.first-banner>* {
+        padding-right: 0 !important
+    }
+}
+
+@media all and (-ms-high-contrast:none),
+(-ms-high-contrast:active) {
+    .home-ads .porto-ultimate-content-box {
+        height: 175px
+    }
+}
+
+.woocommerce form .form-row .required {
+    visibility: visible
+}
+
+.woocommerce-product-gallery {
+    opacity: 1 !important;
+}
+
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
+
+.tip {
+    background: #d8575b;
+    border-color: #d8575b;
+}
+
+.tip:before {
+    content: '';
+    position: absolute;
+    left: -3px;
+    top: 50%;
+    margin-top: -2px;
+    border-right: 3px solid;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-right-color: inherit;
+}
+
+.margin-categories {
+   margin: 0 50px; 
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.text-price {
+    font-size: 12px;
+}
+
+.text-product {
+    font-size: 27px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.color-honda {
+    color: #ff5b5b;
+}
+
+.m-0 {
+    margin: 0px
+}
+
+.porto-sicon-img {
+    display: inline-block;
+    font-size: 48px;
+    text-align: center;
+    width: 10vh;
+    max-width: 100%;
+    box-sizing: content-box !important;
+}

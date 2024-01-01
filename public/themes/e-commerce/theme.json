@@ -1,0 +1,9 @@
+{
+    "name": "ECommerce",
+    "description": "E-commerce theme",
+    "author": "Dhea Monica",
+    "version": "1.0",
+    "required_plugins": [
+
+    ]
+}

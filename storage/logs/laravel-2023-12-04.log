@@ -1,0 +1,252 @@
+[2023-12-04 00:12:13] production.INFO: Error when authorizing this website!  
+[2023-12-04 00:12:13] production.INFO: Error when authorizing this website!  
+[2023-12-04 00:26:08] production.INFO: Error when authorizing this website!  
+[2023-12-04 00:26:10] production.INFO: Error when authorizing this website!  
+[2023-12-04 00:42:45] production.INFO: Error when authorizing this website!  
+[2023-12-04 00:42:45] production.INFO: Error when authorizing this website!  
+[2023-12-04 01:11:27] production.INFO: Error when authorizing this website!  
+[2023-12-04 01:11:27] production.INFO: Error when authorizing this website!  
+[2023-12-04 01:40:22] production.INFO: Error when authorizing this website!  
+[2023-12-04 01:40:22] production.INFO: Error when authorizing this website!  
+[2023-12-04 02:11:05] production.INFO: Error when authorizing this website!  
+[2023-12-04 02:11:05] production.INFO: Error when authorizing this website!  
+[2023-12-04 02:44:33] production.INFO: Error when authorizing this website!  
+[2023-12-04 02:44:33] production.INFO: Error when authorizing this website!  
+[2023-12-04 03:12:35] production.INFO: Error when authorizing this website!  
+[2023-12-04 03:12:35] production.INFO: Error when authorizing this website!  
+[2023-12-04 03:43:41] production.INFO: Error when authorizing this website!  
+[2023-12-04 03:43:41] production.INFO: Error when authorizing this website!  
+[2023-12-04 03:52:10] production.ERROR: include(/home/u1573025/public_html/salesmotorhonda.com/vendor/composer/../laravelium/sitemap/src/Laravelium/Sitemap/SitemapServiceProvider.php): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): include(/home/u1573025/public_html/salesmotorhonda.com/vendor/composer/../laravelium/sitemap/src/Laravelium/Sitemap/SitemapServiceProvider.php): failed to open stream: No such file or directory at /home/u1573025/public_html/salesmotorhonda.com/vendor/composer/ClassLoader.php:444)
+[stacktrace]
+#0 /home/u1573025/public_html/salesmotorhonda.com/vendor/composer/ClassLoader.php(444): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'include(/home/u...', '/home/u1573025/...', 444, Array)
+#1 /home/u1573025/public_html/salesmotorhonda.com/vendor/composer/ClassLoader.php(444): include()
+#2 /home/u1573025/public_html/salesmotorhonda.com/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/home/u1573025/...')
+#3 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('Laravelium\\\\Site...')
+#4 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(707): spl_autoload_call('Laravelium\\\\Site...')
+#5 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(687): Illuminate\\Foundation\\Application->registerDeferredProvider('Laravelium\\\\Site...', 'sitemap')
+#6 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(730): Illuminate\\Foundation\\Application->loadDeferredProvider('sitemap')
+#7 /home/u1573025/public_html/salesmotorhonda.com/vendor/botble/platform/base/src/Supports/SiteMapManager.php(21): Illuminate\\Foundation\\Application->make('sitemap')
+#8 [internal function]: Botble\\Base\\Supports\\SiteMapManager->__construct()
+#9 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(807): ReflectionClass->newInstanceArgs(Array)
+#10 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\Container->build('Botble\\\\Base\\\\Sup...')
+#11 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\\Container\\Container->resolve('Botble\\\\Base\\\\Sup...', Array)
+#12 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(733): Illuminate\\Container\\Container->make('Botble\\\\Base\\\\Sup...', Array)
+#13 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1217): Illuminate\\Foundation\\Application->make('Botble\\\\Base\\\\Sup...')
+#14 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(161): Illuminate\\Container\\Container->offsetGet('Botble\\\\Base\\\\Sup...')
+#15 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(130): Illuminate\\Support\\Facades\\Facade::resolveFacadeInstance('Botble\\\\Base\\\\Sup...')
+#16 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(217): Illuminate\\Support\\Facades\\Facade::getFacadeRoot()
+#17 /home/u1573025/public_html/salesmotorhonda.com/vendor/botble/platform/page/src/Listeners/RenderingSiteMapListener.php(35): Illuminate\\Support\\Facades\\Facade::__callStatic('add', Array)
+#18 [internal function]: Botble\\Page\\Listeners\\RenderingSiteMapListener->handle()
+#19 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(379): call_user_func_array(Array, Array)
+#20 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(209): Illuminate\\Events\\Dispatcher->Illuminate\\Events\\{closure}('Botble\\\\Base\\\\Eve...', Array)
+#21 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(482): Illuminate\\Events\\Dispatcher->dispatch('Botble\\\\Base\\\\Eve...')
+#22 /home/u1573025/public_html/salesmotorhonda.com/vendor/botble/platform/base/src/Http/Controllers/PublicController.php(113): event('Botble\\\\Base\\\\Eve...')
+#23 [internal function]: Botble\\Base\\Http\\Controllers\\PublicController->getSiteMap()
+#24 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#25 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('getSiteMap', Array)
+#26 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(Botble\\Base\\Http\\Controllers\\PublicController), 'getSiteMap')
+#27 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php(169): Illuminate\\Routing\\Route->runController()
+#28 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(679): Illuminate\\Routing\\Route->run()
+#29 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /home/u1573025/public_html/salesmotorhonda.com/plugins/language/src/Http/Middleware/LocalizationRedirectFilter.php(58): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Botble\\Language\\Http\\Middleware\\LocalizationRedirectFilter->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 /home/u1573025/public_html/salesmotorhonda.com/plugins/language/src/Http/Middleware/LocaleSessionRedirect.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#34 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Botble\\Language\\Http\\Middleware\\LocaleSessionRedirect->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/u1573025/public_html/salesmotorhonda.com/vendor/botble/platform/optimize/src/Http/Middleware/PageSpeed.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#37 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Botble\\Optimize\\Http\\Middleware\\PageSpeed->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/u1573025/public_html/salesmotorhonda.com/vendor/botble/platform/optimize/src/Http/Middleware/PageSpeed.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#40 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Botble\\Optimize\\Http\\Middleware\\PageSpeed->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/u1573025/public_html/salesmotorhonda.com/vendor/botble/platform/optimize/src/Http/Middleware/PageSpeed.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#43 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Botble\\Optimize\\Http\\Middleware\\PageSpeed->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 /home/u1573025/public_html/salesmotorhonda.com/vendor/botble/platform/optimize/src/Http/Middleware/PageSpeed.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Botble\\Optimize\\Http\\Middleware\\PageSpeed->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 /home/u1573025/public_html/salesmotorhonda.com/vendor/botble/platform/optimize/src/Http/Middleware/PageSpeed.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#49 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Botble\\Optimize\\Http\\Middleware\\PageSpeed->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#52 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 /home/u1573025/public_html/salesmotorhonda.com/vendor/botble/platform/base/src/Http/Middleware/AdminBarMiddleware.php(45): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#55 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Botble\\Base\\Http\\Middleware\\AdminBarMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 /home/u1573025/public_html/salesmotorhonda.com/vendor/botble/platform/base/src/Http/Middleware/HttpsProtocolMiddleware.php(23): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#58 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Botble\\Base\\Http\\Middleware\\HttpsProtocolMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 /home/u1573025/public_html/salesmotorhonda.com/vendor/botble/platform/base/src/Http/Middleware/LocaleMiddleware.php(34): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#61 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Botble\\Base\\Http\\Middleware\\LocaleMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#63 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#64 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(75): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#67 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#68 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#69 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#70 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#72 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#73 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#74 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#75 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#76 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#77 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#78 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(66): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#79 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#80 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#81 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#82 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(681): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#83 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(656): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#84 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(622): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#85 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(611): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#86 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#87 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#88 /home/u1573025/public_html/salesmotorhonda.com/vendor/proengsoft/laravel-jsvalidation/src/RemoteValidationMiddleware.php(53): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#89 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Proengsoft\\JsValidation\\RemoteValidationMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#90 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#91 /home/u1573025/public_html/salesmotorhonda.com/vendor/barryvdh/laravel-debugbar/src/Middleware/InjectDebugbar.php(58): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#92 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#93 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#94 /home/u1573025/public_html/salesmotorhonda.com/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#95 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#96 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#97 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(31): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#98 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#99 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#100 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(31): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#101 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#102 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#103 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#104 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#105 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#106 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#107 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#108 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#109 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#110 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#111 /home/u1573025/public_html/salesmotorhonda.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#112 /home/u1573025/public_html/salesmotorhonda.com/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#113 {main}
+"} 
+[2023-12-04 04:11:59] production.INFO: Error when authorizing this website!  
+[2023-12-04 04:11:59] production.INFO: Error when authorizing this website!  
+[2023-12-04 04:42:01] production.INFO: Error when authorizing this website!  
+[2023-12-04 04:42:01] production.INFO: Error when authorizing this website!  
+[2023-12-04 05:12:06] production.INFO: Error when authorizing this website!  
+[2023-12-04 05:12:06] production.INFO: Error when authorizing this website!  
+[2023-12-04 05:28:05] production.INFO: Error when authorizing this website!  
+[2023-12-04 05:43:16] production.INFO: Error when authorizing this website!  
+[2023-12-04 05:43:16] production.INFO: Error when authorizing this website!  
+[2023-12-04 06:11:20] production.INFO: Error when authorizing this website!  
+[2023-12-04 06:11:20] production.INFO: Error when authorizing this website!  
+[2023-12-04 06:41:49] production.INFO: Error when authorizing this website!  
+[2023-12-04 06:41:49] production.INFO: Error when authorizing this website!  
+[2023-12-04 07:11:41] production.INFO: Error when authorizing this website!  
+[2023-12-04 07:11:41] production.INFO: Error when authorizing this website!  
+[2023-12-04 07:40:30] production.INFO: Error when authorizing this website!  
+[2023-12-04 07:40:30] production.INFO: Error when authorizing this website!  
+[2023-12-04 08:09:52] production.INFO: Error when authorizing this website!  
+[2023-12-04 08:09:52] production.INFO: Error when authorizing this website!  
+[2023-12-04 08:39:28] production.INFO: Error when authorizing this website!  
+[2023-12-04 08:39:28] production.INFO: Error when authorizing this website!  
+[2023-12-04 08:55:29] production.INFO: Error when authorizing this website!  
+[2023-12-04 08:56:05] production.INFO: Error when authorizing this website!  
+[2023-12-04 09:11:40] production.INFO: Error when authorizing this website!  
+[2023-12-04 09:11:40] production.INFO: Error when authorizing this website!  
+[2023-12-04 09:40:39] production.INFO: Error when authorizing this website!  
+[2023-12-04 09:40:39] production.INFO: Error when authorizing this website!  
+[2023-12-04 10:11:23] production.INFO: Error when authorizing this website!  
+[2023-12-04 10:11:23] production.INFO: Error when authorizing this website!  
+[2023-12-04 10:42:58] production.INFO: Error when authorizing this website!  
+[2023-12-04 10:42:58] production.INFO: Error when authorizing this website!  
+[2023-12-04 11:12:47] production.INFO: Error when authorizing this website!  
+[2023-12-04 11:12:47] production.INFO: Error when authorizing this website!  
+[2023-12-04 11:41:36] production.INFO: Error when authorizing this website!  
+[2023-12-04 11:41:36] production.INFO: Error when authorizing this website!  
+[2023-12-04 12:10:41] production.INFO: Error when authorizing this website!  
+[2023-12-04 12:10:41] production.INFO: Error when authorizing this website!  
+[2023-12-04 12:40:16] production.INFO: Error when authorizing this website!  
+[2023-12-04 12:40:16] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:00] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:00] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:01] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:01] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:01] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:11] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:12] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:15] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:17] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:21] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:48] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:00:59] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:01:00] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:01:11] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:01:17] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:01:47] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:05:41] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:07:15] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:10:13] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:10:13] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:27:46] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:27:46] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:27:46] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:27:46] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:27:47] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:40:57] production.INFO: Error when authorizing this website!  
+[2023-12-04 13:40:57] production.INFO: Error when authorizing this website!  
+[2023-12-04 14:12:17] production.INFO: Error when authorizing this website!  
+[2023-12-04 14:12:17] production.INFO: Error when authorizing this website!  
+[2023-12-04 14:40:28] production.INFO: Error when authorizing this website!  
+[2023-12-04 14:40:28] production.INFO: Error when authorizing this website!  
+[2023-12-04 14:55:54] production.INFO: Error when authorizing this website!  
+[2023-12-04 14:58:59] production.INFO: Error when authorizing this website!  
+[2023-12-04 15:10:54] production.INFO: Error when authorizing this website!  
+[2023-12-04 15:10:54] production.INFO: Error when authorizing this website!  
+[2023-12-04 15:41:29] production.INFO: Error when authorizing this website!  
+[2023-12-04 15:41:29] production.INFO: Error when authorizing this website!  
+[2023-12-04 16:10:18] production.INFO: Error when authorizing this website!  
+[2023-12-04 16:10:18] production.INFO: Error when authorizing this website!  
+[2023-12-04 16:32:35] production.INFO: Error when authorizing this website!  
+[2023-12-04 16:32:35] production.INFO: Error when authorizing this website!  
+[2023-12-04 16:42:07] production.INFO: Error when authorizing this website!  
+[2023-12-04 16:42:07] production.INFO: Error when authorizing this website!  
+[2023-12-04 16:42:32] production.INFO: Error when authorizing this website!  
+[2023-12-04 16:42:32] production.INFO: Error when authorizing this website!  
+[2023-12-04 17:11:47] production.INFO: Error when authorizing this website!  
+[2023-12-04 17:11:47] production.INFO: Error when authorizing this website!  
+[2023-12-04 17:28:27] production.INFO: Error when authorizing this website!  
+[2023-12-04 17:41:26] production.INFO: Error when authorizing this website!  
+[2023-12-04 17:41:26] production.INFO: Error when authorizing this website!  
+[2023-12-04 18:09:44] production.INFO: Error when authorizing this website!  
+[2023-12-04 18:09:44] production.INFO: Error when authorizing this website!  
+[2023-12-04 18:41:54] production.INFO: Error when authorizing this website!  
+[2023-12-04 18:41:54] production.INFO: Error when authorizing this website!  
+[2023-12-04 19:10:03] production.INFO: Error when authorizing this website!  
+[2023-12-04 19:10:03] production.INFO: Error when authorizing this website!  
+[2023-12-04 19:39:36] production.INFO: Error when authorizing this website!  
+[2023-12-04 19:39:36] production.INFO: Error when authorizing this website!  
+[2023-12-04 20:09:14] production.INFO: Error when authorizing this website!  
+[2023-12-04 20:09:14] production.INFO: Error when authorizing this website!  
+[2023-12-04 20:15:05] production.INFO: Error when authorizing this website!  
+[2023-12-04 20:39:18] production.INFO: Error when authorizing this website!  
+[2023-12-04 20:39:18] production.INFO: Error when authorizing this website!  
+[2023-12-04 21:09:42] production.INFO: Error when authorizing this website!  
+[2023-12-04 21:09:42] production.INFO: Error when authorizing this website!  
+[2023-12-04 21:20:15] production.INFO: Error when authorizing this website!  
+[2023-12-04 21:41:57] production.INFO: Error when authorizing this website!  
+[2023-12-04 21:41:57] production.INFO: Error when authorizing this website!  
+[2023-12-04 22:11:05] production.INFO: Error when authorizing this website!  
+[2023-12-04 22:11:05] production.INFO: Error when authorizing this website!  
+[2023-12-04 22:40:15] production.INFO: Error when authorizing this website!  
+[2023-12-04 22:40:15] production.INFO: Error when authorizing this website!  
+[2023-12-04 23:08:37] production.INFO: Error when authorizing this website!  
+[2023-12-04 23:08:57] production.INFO: Error when authorizing this website!  
+[2023-12-04 23:10:51] production.INFO: Error when authorizing this website!  
+[2023-12-04 23:10:51] production.INFO: Error when authorizing this website!  
+[2023-12-04 23:41:15] production.INFO: Error when authorizing this website!  
+[2023-12-04 23:41:15] production.INFO: Error when authorizing this website!  
